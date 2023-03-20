@@ -1,0 +1,15 @@
+"Source:","/home/shubham/pcb design/sh/sh.kicad_sch"
+"Date:","Wednesday 15 March 2023 11:07:26 AM"
+"Tool:","Eeschema 7.0.1-3b83917a11~171~ubuntu20.04.1"
+"Generator:","/usr/share/kicad/plugins/bom_csv_grouped_by_value.py"
+"Component Count:","6"
+
+"Collated Components:"
+
+"Item","Qty","Reference(s)","Value","LibPart","Footprint","Datasheet","DNP","Sim.Device","Sim.Library","Sim.Name","Sim.Params","Sim.Pins"
+"1","1","C3","100 uf","Device:C_Polarized","Capacitor_SMD:CP_Elec_4x3","~","","","","","",""
+"2","1","D1","D_Bridge_+-AA","Device:D_Bridge_+-AA","","~","","","","","",""
+"3","1","R2","1k","Device:R","","~","","","","","",""
+"4","1","RV1","Varistor","Device:Varistor","","~","","SUBCKT","${KICAD7_SYMBOL_DIR}/Simulation_SPICE.sp","kicad_builtin_varistor","threshold=1k","1=A 2=B"
+"5","1","T1","230v-12v","Device:Transformer_1P_1S","","~","","","","","",""
+"6","1","U1","KA78M05_TO252","Regulator_Linear:KA78M05_TO252","Package_TO_SOT_SMD:TO-252-2","https://www.onsemi.com/pub/Collateral/MC78M00-D.PDF","","","","","",""

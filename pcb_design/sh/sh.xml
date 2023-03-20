@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>/home/shubham/pcb design/sh/sh.kicad_sch</source>
+    <date>Wednesday 15 March 2023 11:07:26 AM</date>
+    <tool>Eeschema 7.0.1-3b83917a11~171~ubuntu20.04.1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>sh.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C3">
+      <value>100 uf</value>
+      <footprint>Capacitor_SMD:CP_Elec_4x3</footprint>
+      <libsource lib="Device" part="C_Polarized" description="Polarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="sh.kicad_sch"/>
+      <property name="ki_description" value="Polarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4eed8460-8e16-4f4d-8743-8e3265053832</tstamps>
+    </comp>
+    <comp ref="D1">
+      <value>D_Bridge_+-AA</value>
+      <libsource lib="Device" part="D_Bridge_+-AA" description="Diode bridge, +ve/-ve/AC/AC"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="sh.kicad_sch"/>
+      <property name="ki_description" value="Diode bridge, +ve/-ve/AC/AC"/>
+      <property name="ki_keywords" value="rectifier ACDC"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>996d0e53-f24a-4690-9852-7785711d96cb</tstamps>
+    </comp>
+    <comp ref="R2">
+      <value>1k</value>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="sh.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9a0a7fc5-16e1-4eca-9d28-bfd0617795a7</tstamps>
+    </comp>
+    <comp ref="RV1">
+      <value>Varistor</value>
+      <fields>
+        <field name="Sim.Device">SUBCKT</field>
+        <field name="Sim.Library">${KICAD7_SYMBOL_DIR}/Simulation_SPICE.sp</field>
+        <field name="Sim.Name">kicad_builtin_varistor</field>
+        <field name="Sim.Params">threshold=1k</field>
+        <field name="Sim.Pins">1=A 2=B</field>
+      </fields>
+      <libsource lib="Device" part="Varistor" description="Voltage dependent resistor"/>
+      <property name="Sim.Name" value="kicad_builtin_varistor"/>
+      <property name="Sim.Device" value="SUBCKT"/>
+      <property name="Sim.Pins" value="1=A 2=B"/>
+      <property name="Sim.Params" value="threshold=1k"/>
+      <property name="Sim.Library" value="${KICAD7_SYMBOL_DIR}/Simulation_SPICE.sp"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="sh.kicad_sch"/>
+      <property name="ki_description" value="Voltage dependent resistor"/>
+      <property name="ki_keywords" value="VDR resistance"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d1e3667c-f5b5-41c5-9b91-9f34e04406eb</tstamps>
+    </comp>
+    <comp ref="T1">
+      <value>230v-12v</value>
+      <libsource lib="Device" part="Transformer_1P_1S" description="Transformer, single primary, single secondary"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="sh.kicad_sch"/>
+      <property name="ki_description" value="Transformer, single primary, single secondary"/>
+      <property name="ki_keywords" value="transformer coil magnet"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1dbf3c92-ac84-4f5e-b4d1-d3b750b0f1fa</tstamps>
+    </comp>
+    <comp ref="U1">
+      <value>KA78M05_TO252</value>
+      <footprint>Package_TO_SOT_SMD:TO-252-2</footprint>
+      <datasheet>https://www.onsemi.com/pub/Collateral/MC78M00-D.PDF</datasheet>
+      <libsource lib="Regulator_Linear" part="KA78M05_TO252" description="Positive 500mA 35V Linear Regulator, Fixed Output 5V, TO-252 (D-PAK)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="sh.kicad_sch"/>
+      <property name="ki_description" value="Positive 500mA 35V Linear Regulator, Fixed Output 5V, TO-252 (D-PAK)"/>
+      <property name="ki_keywords" value="Voltage Regulator 500mA Positive"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b0006274-25c4-44c4-b107-d70ee4c81624</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Device" part="C_Polarized">
+      <description>Polarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>CP_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_Polarized</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="D_Bridge_+-AA">
+      <description>Diode bridge, +ve/-ve/AC/AC</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>D*Bridge*</fp>
+        <fp>D*Rectifier*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D_Bridge_+-AA</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="+" type="passive"/>
+        <pin num="2" name="-" type="passive"/>
+        <pin num="3" name="" type="passive"/>
+        <pin num="4" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Transformer_1P_1S">
+      <description>Transformer, single primary, single secondary</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">T</field>
+        <field name="Value">Transformer_1P_1S</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="AA" type="passive"/>
+        <pin num="2" name="AB" type="passive"/>
+        <pin num="3" name="SA" type="passive"/>
+        <pin num="4" name="SB" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Varistor">
+      <description>Voltage dependent resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>RV_*</fp>
+        <fp>Varistor*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">RV</field>
+        <field name="Value">Varistor</field>
+        <field name="Datasheet">~</field>
+        <field name="Sim.Name">kicad_builtin_varistor</field>
+        <field name="Sim.Device">SUBCKT</field>
+        <field name="Sim.Pins">1=A 2=B</field>
+        <field name="Sim.Params">threshold=1k</field>
+        <field name="Sim.Library">${KICAD7_SYMBOL_DIR}/Simulation_SPICE.sp</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Regulator_Linear" part="KA78M05_TO252">
+      <description>Positive 500mA 35V Linear Regulator, Fixed Output 5V, TO-252 (D-PAK)</description>
+      <docs>https://www.onsemi.com/pub/Collateral/MC78M00-D.PDF</docs>
+      <footprints>
+        <fp>TO?252*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">KA78M05_TO252</field>
+        <field name="Footprint">Package_TO_SOT_SMD:TO-252-2</field>
+        <field name="Datasheet">https://www.onsemi.com/pub/Collateral/MC78M00-D.PDF</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VI" type="power_in"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="VO" type="power_out"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Device">
+      <uri>/usr/share/kicad/symbols//Device.kicad_sym</uri>
+    </library>
+    <library logical="Regulator_Linear">
+      <uri>/usr/share/kicad/symbols//Regulator_Linear.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="AC">
+      <node ref="RV1" pin="1" pintype="passive"/>
+      <node ref="T1" pin="1" pinfunction="AA" pintype="passive"/>
+    </net>
+    <net code="2" name="GND">
+      <node ref="RV1" pin="2" pintype="passive"/>
+      <node ref="T1" pin="2" pinfunction="AB" pintype="passive"/>
+    </net>
+    <net code="3" name="Net-(D1-+)">
+      <node ref="D1" pin="1" pinfunction="+" pintype="passive"/>
+      <node ref="T1" pin="4" pinfunction="SB" pintype="passive"/>
+    </net>
+    <net code="4" name="Net-(U1-GND)">
+      <node ref="C3" pin="2" pintype="passive"/>
+      <node ref="D1" pin="4" pintype="passive"/>
+      <node ref="R2" pin="2" pintype="passive"/>
+      <node ref="U1" pin="2" pinfunction="GND" pintype="power_in"/>
+    </net>
+    <net code="5" name="Net-(U1-VI)">
+      <node ref="C3" pin="1" pintype="passive"/>
+      <node ref="D1" pin="3" pintype="passive"/>
+      <node ref="U1" pin="1" pinfunction="VI" pintype="power_in"/>
+    </net>
+    <net code="6" name="Net-(U1-VO)">
+      <node ref="R2" pin="1" pintype="passive"/>
+      <node ref="U1" pin="3" pinfunction="VO" pintype="power_out"/>
+    </net>
+    <net code="7" name="unconnected-(D1---Pad2)">
+      <node ref="D1" pin="2" pinfunction="-" pintype="passive"/>
+      <node ref="T1" pin="3" pinfunction="SA" pintype="passive"/>
+    </net>
+  </nets>
+</export>

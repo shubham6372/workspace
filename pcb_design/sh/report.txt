@@ -1,0 +1,13 @@
+Info: Processing symbol 'C3:Capacitor_SMD:CP_Elec_4x3'.
+Info: Processing symbol 'D1:'.
+Info: Processing symbol 'R2:'.
+Info: Processing symbol 'RV1:'.
+Info: Processing symbol 'T1:'.
+Info: Processing symbol 'U1:Package_TO_SOT_SMD:TO-252-2'.
+Error: Cannot add D1 (no footprint assigned).
+Error: Cannot add R2 (no footprint assigned).
+Error: Cannot add RV1 (no footprint assigned).
+Error: Cannot add T1 (no footprint assigned).
+
+
+Info: Total warnings: 0, errors: 4.

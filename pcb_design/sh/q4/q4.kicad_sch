@@ -1,0 +1,210 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid 8affb8ce-a411-4dd6-9760-c11cf76763fc)
+
+  (paper "A4")
+
+  (lib_symbols
+    (symbol "Relay:DIPxx-1Cxx-51x" (in_bom yes) (on_board yes)
+      (property "Reference" "K" (at 11.43 3.81 0)
+        (effects (font (size 1.27 1.27)) (justify left))
+      )
+      (property "Value" "DIPxx-1Cxx-51x" (at 11.43 1.27 0)
+        (effects (font (size 1.27 1.27)) (justify left))
+      )
+      (property "Footprint" "Relay_THT:Relay_StandexMeder_DIP_LowProfile" (at 11.43 -1.27 0)
+        (effects (font (size 1.27 1.27)) (justify left) hide)
+      )
+      (property "Datasheet" "https://standexelectronics.com/wp-content/uploads/datasheet_reed_relay_DIP.pdf" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_keywords" "Single Pole Reed Relay SPDT" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_description" "Standex Meder DIP reed relay, SPDT" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_fp_filters" "Relay*StandexMeder*DIP*LowProfile*" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "DIPxx-1Cxx-51x_0_0"
+        (polyline
+          (pts
+            (xy 2.54 5.08)
+            (xy 2.54 2.54)
+            (xy 3.175 3.175)
+            (xy 2.54 3.81)
+          )
+          (stroke (width 0) (type default))
+          (fill (type outline))
+        )
+        (polyline
+          (pts
+            (xy 7.62 5.08)
+            (xy 7.62 2.54)
+            (xy 6.985 3.175)
+            (xy 7.62 3.81)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+      )
+      (symbol "DIPxx-1Cxx-51x_0_1"
+        (rectangle (start -10.16 5.08) (end 10.16 -5.08)
+          (stroke (width 0.254) (type default))
+          (fill (type background))
+        )
+        (rectangle (start -8.255 1.905) (end -1.905 -1.905)
+          (stroke (width 0.254) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -7.62 -1.905)
+            (xy -2.54 1.905)
+          )
+          (stroke (width 0.254) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -5.08 -5.08)
+            (xy -5.08 -1.905)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -5.08 5.08)
+            (xy -5.08 1.905)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -1.905 0)
+            (xy -1.27 0)
+          )
+          (stroke (width 0.254) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -0.635 0)
+            (xy 0 0)
+          )
+          (stroke (width 0.254) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 0.635 0)
+            (xy 1.27 0)
+          )
+          (stroke (width 0.254) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 1.905 0)
+            (xy 2.54 0)
+          )
+          (stroke (width 0.254) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 3.175 0)
+            (xy 3.81 0)
+          )
+          (stroke (width 0.254) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 5.08 -2.54)
+            (xy 3.175 3.81)
+          )
+          (stroke (width 0.508) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 5.08 -2.54)
+            (xy 5.08 -5.08)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+      )
+      (symbol "DIPxx-1Cxx-51x_1_1"
+        (pin passive line (at 2.54 7.62 270) (length 2.54)
+          (name "~" (effects (font (size 1.27 1.27))))
+          (number "1" (effects (font (size 1.27 1.27))))
+        )
+        (pin passive line (at 7.62 7.62 270) (length 2.54)
+          (name "~" (effects (font (size 1.27 1.27))))
+          (number "14" (effects (font (size 1.27 1.27))))
+        )
+        (pin passive line (at -5.08 -7.62 90) (length 2.54)
+          (name "~" (effects (font (size 1.27 1.27))))
+          (number "2" (effects (font (size 1.27 1.27))))
+        )
+        (pin passive line (at -5.08 7.62 270) (length 2.54)
+          (name "~" (effects (font (size 1.27 1.27))))
+          (number "6" (effects (font (size 1.27 1.27))))
+        )
+        (pin passive line (at 5.08 -7.62 90) (length 2.54)
+          (name "~" (effects (font (size 1.27 1.27))))
+          (number "7" (effects (font (size 1.27 1.27))))
+        )
+        (pin passive line (at 5.08 -7.62 90) (length 2.54) hide
+          (name "~" (effects (font (size 1.27 1.27))))
+          (number "8" (effects (font (size 1.27 1.27))))
+        )
+      )
+    )
+  )
+
+
+  (symbol (lib_id "Relay:DIPxx-1Cxx-51x") (at 193.04 64.77 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid f8914578-2cfc-49a7-ade0-918f77d56100)
+    (property "Reference" "K?" (at 204.47 64.135 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "DIPxx-1Cxx-51x" (at 204.47 66.675 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "Relay_THT:Relay_StandexMeder_DIP_LowProfile" (at 204.47 66.04 0)
+      (effects (font (size 1.27 1.27)) (justify left) hide)
+    )
+    (property "Datasheet" "https://standexelectronics.com/wp-content/uploads/datasheet_reed_relay_DIP.pdf" (at 193.04 64.77 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 574c01b0-83e9-43fc-b759-a531bd359b2a))
+    (pin "14" (uuid db5c2a05-3cac-434b-8cf8-716470d4c635))
+    (pin "2" (uuid b8c240ee-819a-45f6-88b5-57d3555ec72a))
+    (pin "6" (uuid 01a92810-d569-45d5-a100-2a0285936f4a))
+    (pin "7" (uuid 26d8460f-c0ba-4b82-bd78-8c8ea4f1c2c4))
+    (pin "8" (uuid f992728b-b6b7-411e-9291-650485000aa5))
+    (instances
+      (project "q3"
+        (path "/76a8610b-38ae-4eac-81dc-da9663163b09"
+          (reference "K?") (unit 1)
+        )
+      )
+      (project "q4"
+        (path "/8affb8ce-a411-4dd6-9760-c11cf76763fc"
+          (reference "K?") (unit 1)
+        )
+      )
+    )
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+  )
+)
